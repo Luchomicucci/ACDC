@@ -23,9 +23,15 @@ nav.ppal{
 	padding: 10px;
 	font-family: "Squada One";
 }
-nav.ppal a{
-	font-size: 25px;
-	margin: 0px 20px;
+nav.ppal a, nav.ppal a:visited, nav.ppal a:active, nav.ppal a:focus{
+	font-size: 30px;
+	margin: 0px 50px;
+}
+
+nav.ppal a:hover{
+	color: white;
+	transition: 1.5s all;
+	transform: scale(1.1);
 }
 
 footer{
@@ -52,12 +58,14 @@ body.inicio{
 }
 
 header.inicio{
-	overflow: auto;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 li h1{
 	color: rgba(186, 5, 17, 1);
 }
+
 
 nav ul li a:visited, a:active, a:focus, a{
 	color: rgba(186, 5, 17, 1);
@@ -67,28 +75,15 @@ nav ul li a:visited, a:active, a:focus, a{
 	display: inline-block;
 }
 
-nav a ul li{
+nav ul li a{
 	transition: all 1s;
 }
 
 nav ul li a:hover{
 	color: white;
 	transform: scale(1.2);
-	
 }
 
-section.socialmedia a:visited, a:active, a:focus, a{
-	color: rgba(134, 132, 132, 1);
-	font-size: 35px;
-}
-
-section.socialmedia a{
-	transition: all 1s;
-}
-
-section.socialmedia a:hover{
-	color: white;
-}
 
 ul li{
 	font-family: "Squada One";
@@ -100,19 +95,26 @@ ul li{
 nav.inicial{
 	font-family: "Lobster";
 	color: rgba(186, 5, 17, 1);
-	width: 25%;
-	padding-bottom: 16%;
-	float: left;
+	margin-bottom: 5%;
 }
 
 section.socialmedia{
 	text-align: center;
-	width: 5%;
-	float: right;
-	margin-top: 33%;
+	margin-left: auto;
 }
 
+section.socialmedia a{
+	display: block;
+}
 
+section.socialmedia a, section.socialmedia a:visited, section.socialmedia a:active, section.socialmedia a:focus{
+		color: gray;
+} 
+
+section.socialmedia a:hover{
+	color: white;
+	transition: 1s all;
+}
 
 footer.ppal{
 	background: rgb(0,0,0, 0.7);
