@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css?family=Contrail+One|Racing+Sans+One|Squada+One&display=swap');
+
+
+/* --------------------------- Diseño Gral --------------------------*/
+
+header h1{
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	font-family: "Squada One";
+	background-position: center;
+	padding: 30px;
+}
+
+body{
+	background-color: black;
+	color: white;
+}
+
+nav.ppal{
+	background-color: rgba(68, 68, 68, 0.7);
+	padding: 10px;
+	font-family: "Squada One";
+}
+nav.ppal a{
+	font-size: 25px;
+	margin: 0px 20px;
+}
+
+footer{
+	background-color: black;
+	padding: 1px;
+}
+
+footer a{
+	font-size: 40px;
+	margin: 0px 15px;
+}
+
+footer span a{
+	font-size: 25px
+}
+
+/*---------------------- INICIO -----------------------*/
+
+body.inicio{
+	background-image: url(../imagenes/fondohome.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+}
+
+header.inicio{
+	overflow: auto;
+}
+
+li h1{
+	color: rgba(186, 5, 17, 1);
+}
+
+nav ul li a:visited, a:active, a:focus, a{
+	color: rgba(186, 5, 17, 1);
+	font-size: 35px;
+	text-decoration: none;
+	margin: 3px;
+	display: inline-block;
+}
+
+nav a ul li{
+	transition: all 1s;
+}
+
+nav ul li a:hover{
+	color: white;
+	transform: scale(1.2);
+	
+}
+
+section.socialmedia a:visited, a:active, a:focus, a{
+	color: rgba(134, 132, 132, 1);
+	font-size: 35px;
+}
+
+section.socialmedia a{
+	transition: all 1s;
+}
+
+section.socialmedia a:hover{
+	color: white;
+}
+
+ul li{
+	font-family: "Squada One";
+	text-transform: uppercase;
+	font-size: 30px;
+	list-style: none;
+}
+
+nav.inicial{
+	font-family: "Lobster";
+	color: rgba(186, 5, 17, 1);
+	width: 25%;
+	padding-bottom: 16%;
+	float: left;
+}
+
+section.socialmedia{
+	text-align: center;
+	width: 5%;
+	float: right;
+	margin-top: 33%;
+}
+
+
+
+footer.ppal{
+	background: rgb(0,0,0, 0.7);
+}
+
+img.logoppal{
+	width: 55%;
+	margin-left: 9%;
+}
+
+/*----------------- LA BANDA -------------------*/
+
+header.labanda{
+	background-image: url(../imagenes/);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+article{
+	overflow: auto;
+}
+
+article section{
+	float: left;
+}
+
+
+/*------------- DISCOGRAFIA ------------------*/
+
+header.discografia{
+	background-image: url(../imagenes/fondo2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+article section#disco{
+	width: 50%;
+}
+
+/*---------------- GALERIA -------------------*/
+
+header.galeria{
+	background-image: url(../imagenes/);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*--------------- CONTACTO ---------------- */
+
+header.contacto{
+	background-image: url(../imagenes/);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+section video{
+	width: 100%;
+}
+
