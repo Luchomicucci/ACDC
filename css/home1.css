@@ -48,6 +48,32 @@ footer span a{
 	font-size: 25px
 }
 
+nav.ppal > ul li{
+	display: inline-block;
+}
+
+nav.ppal li ul{
+	display: none;
+	position: absolute;
+}
+
+nav.ppal li a:hover + ul{
+	display: block;
+}
+
+nav.ppal li a:hover + ul.desplegable{
+	display: block;
+}
+
+ul.desplegable li{
+	display: block !important;
+	background-color: rgba(68, 68, 68, 0.5);
+}
+
+ul.desplegable:hover{
+	display: block
+}
+
 /*---------------------- INICIO -----------------------*/
 
 body.inicio{
@@ -174,3 +200,83 @@ section video{
 	width: 100%;
 }
 
+/* -------- RESPONSIVE DESIGN ------------*/
+
+@media only screen and (max-width: 320px) {
+
+	body{
+		font-size: 10px;
+		background-position: center;
+	}
+	nav.inicial{
+		flex-basis: 25%;
+		margin-bottom: 55%;
+	}
+
+	footer.ppal{
+		width: 100%;
+		margin: auto;
+		padding: auto;
+	}
+
+	a{
+		font-size: 25px;
+	}
+
+	img.logoppal{
+		width: 75%;
+	}
+
+	nav ul li a:hover, nav ul li a:active, nav ul li a:focus {
+	transform: scale(1);
+	font-size: 25px;
+	}
+
+	section.socialmedia a:hover, section.socialmedia a:focus, section.socialmedia a:active{
+	color: white;
+	transition: 1s all;
+	font-size: 25px;
+	}
+}
+
+@media only screen and (min-width: 321px) and (max-width: 600px){
+
+		body{
+		font-size: 10px;
+		background-position: center;
+	}
+	nav.inicial{
+		flex-basis: 25%;
+		margin-bottom: 25%;
+	}
+
+	footer.ppal{
+		width: 100%;
+		margin: auto;
+		padding: auto;
+	}
+
+	a{
+		font-size: 25px;
+	}
+
+	img.logoppal{
+		width: 80%;
+	}
+
+	nav ul li a:hover, nav ul li a:active, nav ul li a:focus {
+	transform: scale(1);
+	font-size: 25px;
+	}
+
+	section.socialmedia a:hover, section.socialmedia a:focus, section.socialmedia a:active{
+	color: white;
+	transition: 1s all;
+	font-size: 25px;
+	}
+
+	section.socialmedia a{
+		font-size: 30px;
+	}
+
+}
