@@ -17,3 +17,16 @@ h1{
 
 */
 
+/* $colores: (
+	facebook: rgba(123, 123, 123, 1),
+	instagram: rgba (0, 0, 0, 1),
+	twitter: rgba (1, 1, 1, 1)
+	);
+
+@each $redsocial, $color in $colores{
+	.social--#{$redsocial}{
+		background-color: $color;
+	}
+}
+
+*/
