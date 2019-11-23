@@ -19,7 +19,7 @@ body{
 }
 
 nav.ppal{
-	background-color: rgba(68, 68, 68, 0.7);
+	background-color: rgba(0, 0, 0, 0.85);
 	padding: 10px;
 	font-family: "Squada One";
 }
@@ -34,6 +34,9 @@ nav.ppal a:hover{
 	transform: scale(1.1);
 }
 
+nav.ppal > ul.ppal{
+	margin: 2px;
+}
 footer{
 	background-color: black;
 	padding: 1px;
@@ -67,7 +70,7 @@ nav.ppal li a:hover + ul.desplegable{
 
 ul.desplegable li{
 	display: block !important;
-	background-color: rgba(68, 68, 68, 0.5);
+	background-color: rgba(0, 0, 0, 0.85);
 }
 
 ul.desplegable:hover{
@@ -113,7 +116,7 @@ nav ul li a:hover{
 }
 
 
-ul li{
+nav ul li{
 	font-family: "Squada One";
 	text-transform: uppercase;
 	font-size: 30px;
@@ -162,12 +165,12 @@ header.labanda{
 	background-size: cover;
 }
 
-article{
-	overflow: auto;
+body{
+	background-image: url(../imagenes/fondosecciones.jpg);
 }
 
-article section{
-	float: left;
+.fondoarticle{
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
 
