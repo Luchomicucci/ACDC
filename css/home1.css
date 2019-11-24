@@ -4,6 +4,13 @@
 
 /* --------------------------- Diseño Gral --------------------------*/
 
+header.secciones{
+	background-image: url(../imagenes/fondo2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+}
+
 header h1{
 	font-size: 40px;
 	color: white;
@@ -80,7 +87,7 @@ ul.desplegable:hover{
 /*---------------------- INICIO -----------------------*/
 
 body.inicio{
-	background-image: url(../imagenes/fondohome.png);
+	background-image: url(../imagenes/fondoinicio.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin: 0;
@@ -132,6 +139,7 @@ nav.inicial{
 section.socialmedia{
 	text-align: center;
 	margin-left: auto;
+	margin-right: 1%;
 }
 
 section.socialmedia a{
@@ -139,12 +147,12 @@ section.socialmedia a{
 }
 
 section.socialmedia a, section.socialmedia a:visited, section.socialmedia a:active, section.socialmedia a:focus{
-		color: gray;
+		color: white;
 		font-size: 35px;
 } 
 
 section.socialmedia a:hover{
-	color: white;
+	color: rgba(186, 5, 17, 1);
 	transition: 1s all;
 }
 
@@ -159,12 +167,6 @@ img.logoppal{
 
 /*----------------- LA BANDA -------------------*/
 
-header.labanda{
-	background-image: url(../imagenes/);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
 body{
 	background-image: url(../imagenes/fondosecciones.jpg);
 }
@@ -176,11 +178,6 @@ body{
 
 /*------------- DISCOGRAFIA ------------------*/
 
-header.discografia{
-	background-image: url(../imagenes/fondo2.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
 
 article section#disco{
 	width: 50%;
@@ -188,19 +185,8 @@ article section#disco{
 
 /*---------------- GALERIA -------------------*/
 
-header.galeria{
-	background-image: url(../imagenes/);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
 
 /*--------------- CONTACTO ---------------- */
-
-header.contacto{
-	background-image: url(../imagenes/);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
 
 section video{
 	width: 100%;
