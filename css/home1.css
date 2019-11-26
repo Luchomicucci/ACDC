@@ -8,7 +8,20 @@ header.secciones{
 	background-image: url(../imagenes/fondo2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: bottom;
+	background-position: top;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+	color: rgba(186, 5, 17, 1);
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: gray;
+}
+
+.navbar-light .navbar-toggler {
+    background: red;
 }
 
 header h1{
@@ -18,6 +31,7 @@ header h1{
 	font-family: "Squada One";
 	background-position: center;
 	padding: 30px;
+	margin: 0px;
 }
 
 body{
@@ -26,13 +40,20 @@ body{
 }
 
 nav.ppal{
-	background-color: rgba(0, 0, 0, 0.85);
-	padding: 10px;
+	background-color: rgba(0, 0, 0, 1);
 	font-family: "Squada One";
 }
 nav.ppal a, nav.ppal a:visited, nav.ppal a:active, nav.ppal a:focus{
 	font-size: 30px;
-	margin: 0px 50px;
+	margin: 0px 25px;
+}
+
+nav.ppal a.logoppal2, nav.ppal a.logoppal2:visited, nav.ppal a.logoppal2:active, nav.ppal a.logoppal2:focus {
+    margin: auto;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: white	;
 }
 
 nav.ppal a:hover{
@@ -163,6 +184,14 @@ footer.ppal{
 img.logoppal{
 	width: 55%;
 	margin-left: 9%;
+}
+
+img.logoppal2{
+	width: 50%;
+}
+
+a.logoppal2{
+	flex-basis: 20%
 }
 
 /*----------------- LA BANDA -------------------*/
