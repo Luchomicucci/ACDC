@@ -1,16 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css?family=Contrail+One|Racing+Sans+One|Squada+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Alatsi&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Anton&display=swap');
 
 /* --------------------------- Diseño Gral --------------------------*/
 
-header.secciones{
-	background-image: url(../imagenes/fondo2.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: top;
+p{
+	font-size: 13px;
 }
 
+h2{
+	font-size: 20px;
+}
 
 .navbar-light .navbar-nav .nav-link {
 	color: rgba(186, 5, 17, 1);
@@ -21,7 +22,7 @@ header.secciones{
 }
 
 .navbar-light .navbar-toggler {
-    background: red;
+    background: rgba(186, 5, 17, 1);
 }
 
 header h1{
@@ -37,6 +38,7 @@ header h1{
 body{
 	background-color: black;
 	color: white;
+	font-family: "Alatsi";
 }
 
 nav.ppal{
@@ -212,8 +214,15 @@ article section#disco{
 	width: 50%;
 }
 
+article.discografia li{
+	color: gray;
+}
+
+
 /*---------------- GALERIA -------------------*/
 
+div.videoyoutube{
+}
 
 /*--------------- CONTACTO ---------------- */
 
@@ -263,6 +272,18 @@ section video{
 	nav ul li a:visited, nav ul li a:active, nav ul li a:focus, nav ul li a{
 		font-size: 25px;
 	}
+
+	img.logoppal2{
+		width: 100%;
+	}
+
+	a.logoppal2{
+		flex-basis: 40%;
+	}
+
+	article.discografia li, article.discografia ol, li {
+	font-size: 15px;
+	}
 }
 
 @media only screen and (min-width: 321px) and (max-width: 600px){
@@ -305,6 +326,17 @@ section video{
 		font-size: 30px;
 	}
 
+	img.logoppal2{
+		width: 100%;
+	}
+
+	a.logoppal2{
+		flex-basis: 40%;
+	}
+
+	article.discografia li, article.discografia ol, li {
+	font-size: 15px;
+	}
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1024px){
@@ -347,6 +379,17 @@ section video{
 		font-size: 30px;
 	}
 
+	img.logoppal2{
+		width: 100%;
+	}
+
+	a.logoppal2{
+		flex-basis: 20%;
+	}
+
+	article.discografia li, article.discografia ol {
+	font-size: 15px;
+	}
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1199px){
