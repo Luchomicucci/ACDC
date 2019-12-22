@@ -222,14 +222,20 @@ article.discografia li{
 /*---------------- GALERIA -------------------*/
 
 div.videoyoutube{
+	text-align: center;
 }
+
+.imggaleria{
+	margin: 0 auto;
+}
+
+
 
 /*--------------- CONTACTO ---------------- */
 
-section video{
-	width: 100%;
+form{
+	margin: 5% auto 15% 40%;
 }
-
 /* -------- RESPONSIVE DESIGN ------------*/
 
 @media only screen and (max-width: 320px) {
